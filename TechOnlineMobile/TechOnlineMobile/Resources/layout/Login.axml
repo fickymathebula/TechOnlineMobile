@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+    <EditText
+        android:id="@+id/txLoginUserName"
+		android:inputType="textEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Address"
+        android:textColorHint="@android:color/background_dark"
+        android:textColor="@android:color/background_dark" />
+    <EditText
+        android:id="@+id/txLoginPassword"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="@android:color/background_dark"
+        android:textColor="@android:color/background_dark" />
+    <Button
+        android:id="@+id/btnLogin"
+        android:text="login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light" />
+</LinearLayout>
